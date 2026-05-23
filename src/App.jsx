@@ -1,10 +1,15 @@
-import DiscountDashboard
-from './components/DiscountDashboard';
+import './App.css';
+
+import DiscountDashboard from './components/DiscountDashboard';
 
 function App() {
-
-  return <DiscountDashboard />;
-
+  return (
+    <main className="app-container">
+      <section className="dashboard-wrapper">
+        <DiscountDashboard />
+      </section>
+    </main>
+  );
 }
 
 export default App;
